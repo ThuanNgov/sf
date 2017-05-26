@@ -3,3 +3,6 @@
 /var/logs/*
 !/var/cache/.gitkeep
 /var/cache/*
+.idea/
+.project
+.settings/

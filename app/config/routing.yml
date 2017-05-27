@@ -1,14 +1,10 @@
 sf_front:
-    resource: "@SfFrontBundle/Controller/"
-    type:     annotation
-    prefix:   /
-
-sf_core:
-    resource: "@SfCoreBundle/Controller/"
-    type:     annotation
+    resource: '@SfFrontBundle/Resources/config/routing.yml'
     prefix:   /
 
 sf_admin:
-    resource: "@SfAdminBundle/Controller/"
-    type:     annotation
-    prefix:   /
+    resource: '@SfAdminBundle/Resources/config/routing.yml'
+    prefix:   /admin
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
